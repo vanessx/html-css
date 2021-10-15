@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* em html é id = em css é #
+em html é class = em css é .
+*/
+
+body {
+    background-color: rgb(204, 224, 164);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(106, 139, 39);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(55, 75, 14);
+    color: white;
+}
+
+h2 {
+    color: rgb(55, 75, 14);
+}
+
+.basico {
+    color: rgb(192, 155, 192);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(241, 152, 136);
+}
+
+.avancado {
+    color: rgb(91, 194, 183);
+}
+
+.destaque {
+    background-color: rgb(206, 206, 151);
+}
